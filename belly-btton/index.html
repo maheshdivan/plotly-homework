@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dropdown Events</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4 center">Belly Button Biodiversity Dashboard</h1>
+        <p class="center">Use Interactive charts below to explore the dataset.</p>
+    </div>
+    <select id="id">
+        <option value="None">- Id Select -</option>
+    </select>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div id="mydiv"></div>
+            </div>
+
+            <div class="col-md-4">
+                <div id="plot"></div>
+            </div>
+            <div class="col-md-4">
+                <div id="plot2"></div>
+            </div>
+
+        </div>
+    </div>
+    <div id="plot1"></div>
+
+
+
+
+    <script src="plots.js"></script>
+</body>
+
+</html>
