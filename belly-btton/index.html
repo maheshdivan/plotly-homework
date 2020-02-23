@@ -10,6 +10,8 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="//www.amcharts.com/lib/4/core.js"></script>
+    <script src="//www.amcharts.com/lib/4/charts.js"></script>
 </head>
 
 <body>
@@ -17,9 +19,14 @@
         <h1 class="display-4 center">Belly Button Biodiversity Dashboard</h1>
         <p class="center">Use Interactive charts below to explore the dataset.</p>
     </div>
+    <div class="card bg-light mb-3" style="width: 18rem;">
+    <div class="card-body">    
+            <p class="card-text">Test Subject ID No:</p>
     <select id="id">
         <option value="None">- Id Select -</option>
     </select>
+    </div>
+</div>
     <div class="container">
         <div class="row">
 
@@ -31,12 +38,17 @@
                 <div id="plot"></div>
             </div>
             <div class="col-md-4">
-                <div id="plot2"></div>
+                    <h3 class="text-center"> Belly Button Washing Frequency</h3>
+                    <h6 class="text-center"> Scrubs per week</h6>
+                <div id="plot2">
+                    
+                </div>
             </div>
 
         </div>
     </div>
-    <div id="plot1"></div>
+         <div id="plot1">
+         </div>
 
 
 
