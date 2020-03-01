@@ -49,3 +49,17 @@
     /*orientation fix*/
     transform: rotate(270deg);
   }
+
+  .jumbotron h1{
+
+    font-weight: 800;
+    text-align: center;
+    
+    }
+    
+    .jumbotron p{
+    
+    font-weight: 800;
+    text-align: center;
+    
+    }
